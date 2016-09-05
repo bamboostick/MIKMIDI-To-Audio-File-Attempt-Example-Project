@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D289F0D8897F8EA0F7A89A3 /* Pods_AudioUnitRenderIssueExampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D35F81A6EACC3A36D889D4 /* Pods_AudioUnitRenderIssueExampleProject.framework */; };
 		D9FE82DB1D7D57500006C8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE82DA1D7D57500006C8CC /* AppDelegate.swift */; };
 		D9FE82DD1D7D57500006C8CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE82DC1D7D57500006C8CC /* ViewController.swift */; };
 		D9FE82E01D7D57500006C8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE82DE1D7D57500006C8CC /* Main.storyboard */; };
 		D9FE82E21D7D57500006C8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FE82E11D7D57500006C8CC /* Assets.xcassets */; };
 		D9FE82E51D7D57500006C8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FE82E31D7D57500006C8CC /* LaunchScreen.storyboard */; };
+		D9FE82ED1D7D59390006C8CC /* test.mid in Resources */ = {isa = PBXBuildFile; fileRef = D9FE82EC1D7D59390006C8CC /* test.mid */; };
+		D9FE82F01D7D5E840006C8CC /* Stereo Piano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = D9FE82EF1D7D5E840006C8CC /* Stereo Piano.sf2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		248761224B4875FF07B5A0D7 /* Pods-AudioUnitRenderIssueExampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioUnitRenderIssueExampleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioUnitRenderIssueExampleProject/Pods-AudioUnitRenderIssueExampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4F4B3157EE1182F50F284EC7 /* Pods-AudioUnitRenderIssueExampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioUnitRenderIssueExampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioUnitRenderIssueExampleProject/Pods-AudioUnitRenderIssueExampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		A4D35F81A6EACC3A36D889D4 /* Pods_AudioUnitRenderIssueExampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioUnitRenderIssueExampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FE82D71D7D57500006C8CC /* AudioUnitRenderIssueExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioUnitRenderIssueExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FE82DA1D7D57500006C8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FE82DC1D7D57500006C8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		D9FE82E11D7D57500006C8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9FE82E41D7D57500006C8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9FE82E61D7D57500006C8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FE82EC1D7D59390006C8CC /* test.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = test.mid; sourceTree = "<group>"; };
+		D9FE82EF1D7D5E840006C8CC /* Stereo Piano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stereo Piano.sf2"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D289F0D8897F8EA0F7A89A3 /* Pods_AudioUnitRenderIssueExampleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		325D4C530417E37EC53A53AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				248761224B4875FF07B5A0D7 /* Pods-AudioUnitRenderIssueExampleProject.debug.xcconfig */,
+				4F4B3157EE1182F50F284EC7 /* Pods-AudioUnitRenderIssueExampleProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C08011EE7B7D4C341520203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D35F81A6EACC3A36D889D4 /* Pods_AudioUnitRenderIssueExampleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9FE82CE1D7D57500006C8CC = {
 			isa = PBXGroup;
 			children = (
+				D9FE82EF1D7D5E840006C8CC /* Stereo Piano.sf2 */,
 				D9FE82D91D7D57500006C8CC /* AudioUnitRenderIssueExampleProject */,
 				D9FE82D81D7D57500006C8CC /* Products */,
+				325D4C530417E37EC53A53AC /* Pods */,
+				5C08011EE7B7D4C341520203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +89,7 @@
 				D9FE82E11D7D57500006C8CC /* Assets.xcassets */,
 				D9FE82E31D7D57500006C8CC /* LaunchScreen.storyboard */,
 				D9FE82E61D7D57500006C8CC /* Info.plist */,
+				D9FE82EC1D7D59390006C8CC /* test.mid */,
 			);
 			path = AudioUnitRenderIssueExampleProject;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9FE82E91D7D57500006C8CC /* Build configuration list for PBXNativeTarget "AudioUnitRenderIssueExampleProject" */;
 			buildPhases = (
+				46920566AD32F39CEE5EA22D /* Check Pods Manifest.lock */,
 				D9FE82D31D7D57500006C8CC /* Sources */,
 				D9FE82D41D7D57500006C8CC /* Frameworks */,
 				D9FE82D51D7D57500006C8CC /* Resources */,
+				906DB1E26A4CD6F32D513BEE /* Embed Pods Frameworks */,
+				629EB79A848B55EDCD7FC5DB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,13 +155,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FE82ED1D7D59390006C8CC /* test.mid in Resources */,
 				D9FE82E51D7D57500006C8CC /* LaunchScreen.storyboard in Resources */,
 				D9FE82E21D7D57500006C8CC /* Assets.xcassets in Resources */,
 				D9FE82E01D7D57500006C8CC /* Main.storyboard in Resources */,
+				D9FE82F01D7D5E840006C8CC /* Stereo Piano.sf2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46920566AD32F39CEE5EA22D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		629EB79A848B55EDCD7FC5DB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioUnitRenderIssueExampleProject/Pods-AudioUnitRenderIssueExampleProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		906DB1E26A4CD6F32D513BEE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioUnitRenderIssueExampleProject/Pods-AudioUnitRenderIssueExampleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9FE82D31D7D57500006C8CC /* Sources */ = {
@@ -247,6 +330,7 @@
 		};
 		D9FE82EA1D7D57500006C8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248761224B4875FF07B5A0D7 /* Pods-AudioUnitRenderIssueExampleProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AudioUnitRenderIssueExampleProject/Info.plist;
@@ -258,6 +342,7 @@
 		};
 		D9FE82EB1D7D57500006C8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4B3157EE1182F50F284EC7 /* Pods-AudioUnitRenderIssueExampleProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AudioUnitRenderIssueExampleProject/Info.plist;
@@ -286,6 +371,7 @@
 				D9FE82EB1D7D57500006C8CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

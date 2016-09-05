@@ -4,9 +4,7 @@ More details at:
 http://stackoverflow.com/questions/39310065/audiounitrender-and-extaudiofilewrite-error-50-in-swift-trying-to-convert-midi
 
 SETUP
-1. Use cocoapods to add MIKMIDI to the project.
-2. Download a free soundfont online and add it to the project using the Add Files option in Xcode.
-3. Change the name of the soundfont using for the MIKMIDI Synth in the setupMIDI function in the view controller file.
+1. Run cocoapods "pod install" in the main project directory.
 
 USAGE
 Run the app and tap the Play MIDI button to ensure MIKMIDI is added to the project correctly. You should be able to hear
